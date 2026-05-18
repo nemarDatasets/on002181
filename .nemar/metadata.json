@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on002181",
-  "source": "openneuro",
-  "source_id": "ds002181",
+  "pipeline_stage": "enriched",
   "title": "CRYPTO and PROVIDE EEG Baseline Data",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Wanze Xie": {},
     "Sarah Jensen": {},
@@ -15,14 +15,90 @@
     "William A Petri": {},
     "Charles A Nelson": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "mockDOI",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002181",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002181",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/447722",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.on002181",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "157.2 MB (227 files)"
+  ],
+  "formats": [
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises resting-state EEG recordings collected from Bangladeshi children as part of the CRYPTO and PROVIDE studies. The data include baseline EEG measurements from two age cohorts: 36-month-old toddlers and 6-month-old infants, acquired during a 2-minute passive viewing task. These recordings were used to investigate associations between nutritional stunting and brain functional connectivity patterns in early childhood development.",
+  "methods_description": "EEG data were collected from two age groups: 36-month-old toddlers (participant IDs < 2000) and 6-month-old infants (participant IDs > 2000). Recordings were acquired during a 2-minute screen saver viewing task.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "functional connectivity"
+    },
+    {
+      "term": "infant development"
+    },
+    {
+      "term": "toddlers"
+    },
+    {
+      "term": "stunting"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "Bangladesh"
+    },
+    {
+      "term": "nutritional status"
+    },
+    {
+      "term": "CRYPTO"
+    },
+    {
+      "term": "PROVIDE"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "Unknown"
+    },
+    {
+      "funder_name": "National Institutes of Health"
+    }
+  ],
+  "source_hash": "8f8b2b3f33ed8fbc4ba8001ab8f8530ddda8f922ca448a3989493de6f5a500f7"
 }
