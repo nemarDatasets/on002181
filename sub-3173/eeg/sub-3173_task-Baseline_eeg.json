@@ -8,12 +8,12 @@
 	"InstitutionAddress": "1 Autumn Street, Boston, MA 02215, USA",
 	"InstitutionName": "BCH, Harvard Medical School",
 	"InstitutionalDepartmentName": "Nelson Lab",
-	"MiscChannelCount": 1,
 	"PowerLineFrequency": 50,
 	"RecordingDuration": 87.148,
 	"SamplingFrequency": 500,
 	"SoftwareFilters": "n/a",
 	"TaskDescription": "Subjects were watching computer screen savers. Data were filtered with [1 50] band-pass filter",
 	"TaskName": "Baseline",
-	"TriggerChannelCount": 0
+	"TriggerChannelCount": 0,
+	"MISCChannelCount": 1
 }

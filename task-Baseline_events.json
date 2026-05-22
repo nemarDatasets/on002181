@@ -1,0 +1,15 @@
+{
+  "sample": {
+    "Description": "Sample index of the event onset in the recording (0-based)."
+  },
+  "type": {
+    "Description": "Event type label as exported from EEGLAB (EEG.event.type). All events in this dataset are of type 'trigger'."
+  },
+  "value": {
+    "Description": "Event value associated with the trigger. 'onset' marks recording start; 'target' marks each presentation of the screen-saver stimulus.",
+    "Levels": {
+      "onset": "Recording onset marker (one per recording).",
+      "target": "Screen-saver stimulus presentation event."
+    }
+  }
+}

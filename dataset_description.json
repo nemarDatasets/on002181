@@ -10,14 +10,17 @@
     "William A Petri",
     "Charles A Nelson"
   ],
-  "BIDSVersion": "1.2",
+  "BIDSVersion": "1.9.0",
   "License": "CC0",
   "Name": "CRYPTO and PROVIDE EEG Baseline Data",
   "DatasetDOI": "10.82901/nemar.on002181",
-  "SourceDatasets": [
+  "Version": "1.0.2",
+  "DatasetType": "raw",
+  "GeneratedBy": [
     {
-      "DOI": "mockDOI"
+      "Name": "nemar-cli",
+      "Version": "0.8.8",
+      "CodeURL": "https://github.com/nemar-org/nemar-cli"
     }
-  ],
-  "Version": "1.0.0"
+  ]
 }
