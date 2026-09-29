@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "CRYPTO and PROVIDE EEG Baseline Data",
-  "description": "This dataset comprises resting-state EEG recordings collected from Bangladeshi children as part of the CRYPTO and PROVIDE studies. The data include baseline EEG measurements from two age cohorts: 36-month-old toddlers and 6-month-old infants, acquired during a 2-minute passive viewing task. These recordings were used to investigate associations between nutritional stunting and brain functional connectivity patterns in early childhood development.",
-  "methods_description": "EEG data were collected from two age groups: 36-month-old toddlers (participant ID < 2000) and 6-month-old infants (participant ID > 2000). Participants viewed screen savers for 2 minutes during passive recording. Baseline EEG measurements were acquired as part of the CRYPTO and PROVIDE studies conducted in Bangladesh.",
+  "description": "Baseline EEG recordings from Bangladeshi children collected as part of the CRYPTO and PROVIDE studies. The dataset includes a cohort of 36-month-old toddlers and a cohort of 6-month-old infants who watched screen savers for 2 minutes. It was used to examine the association between stunting and EEG-derived brain functional connectivity in children exposed to early adversity.",
+  "methods_description": "EEG was recorded for 2 minutes while children watched screen savers. Participants with IDs below 2000 belong to the 36-month-old toddler cohort, and IDs above 2000 belong to the 6-month-old infant cohort.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,34 +28,16 @@
       "term": "stunting"
     },
     {
-      "term": "infant development"
+      "term": "child development"
     },
     {
       "term": "Bangladesh"
     },
     {
-      "term": "resting state"
-    },
-    {
-      "term": "CRYPTO"
-    },
-    {
-      "term": "PROVIDE"
-    },
-    {
-      "term": "toddlers"
-    },
-    {
       "term": "infants"
     },
     {
-      "term": "passive viewing"
-    },
-    {
-      "term": "baseline"
-    },
-    {
-      "term": "nutritional stunting"
+      "term": "early adversity"
     }
   ],
   "related_identifiers": [
@@ -70,19 +52,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002181",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1101/447722",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.82901/nemar.on002181",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
+      "identifier": "https://nemar.org/dataset/on002181",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -99,7 +76,7 @@
     "eeg"
   ],
   "sizes": [
-    "157.2 MB (227 files)"
+    "150 MB (227 files)"
   ],
   "formats": [
     ".gitattributes",
